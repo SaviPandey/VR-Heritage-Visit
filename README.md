@@ -26,7 +26,22 @@ VR-भ्रमण is a "Digital Pilgrimage Hub" designed to offer users a virtu
 - **Chatbot:** Dialogflow
 
 ## ✨UI ScreenShots 
-![SS](https://shorturl.at/NmF8v)
+![Home](https://github.com/user-attachments/assets/397b5187-cf1f-47fb-a1e9-46eebf84f856)
+![360-VIEW](https://github.com/user-attachments/assets/1325d75d-cd95-4fe2-b2d2-a82d431b3c04)
+![Religious-places](https://github.com/user-attachments/assets/73c02480-4eab-411f-8b1f-a15d40b6a136)
+![added-on-map](https://github.com/user-attachments/assets/5457d564-fdfe-4b98-9cba-3b6f35322b1d)
+![Contact-us](https://github.com/user-attachments/assets/5ce5bd9d-91e3-4122-af9c-07a0adcaa9a2)
+![pilgrimages](https://github.com/user-attachments/assets/e3e14f14-bdcf-4042-895e-3d5804647ec8)
+![pilgrim-desc](https://github.com/user-attachments/assets/0d3bcb51-f848-4651-9235-c98a4d37d998)
+![360-image](https://github.com/user-attachments/assets/fcc22ad8-2228-4d27-a69d-563cf7c7855d)
+![schedule-meet](https://github.com/user-attachments/assets/36771faf-615c-4703-bf5d-69c302e6e920)
+![blog](https://github.com/user-attachments/assets/64fbe390-fc67-4b37-98c1-5caf9115d50e)
+![chatBot](https://github.com/user-attachments/assets/f37a1650-70bc-4ab3-9383-a4bc7cf4123a)
+![Donate-to-spot](https://github.com/user-attachments/assets/879538b5-72f4-490e-862d-bf8dd2c9f359)
+![Map](https://github.com/user-attachments/assets/4cc0fdc8-000d-495f-9c44-462a2b0dbb12)
+![add-pilgrim](https://github.com/user-attachments/assets/34e07821-54b4-4676-83cb-83571688d3a4)
+![add-info](https://github.com/user-attachments/assets/f7a0076f-c9f2-49c6-818c-e70053bc9cfd)
+![added-on-map](https://github.com/user-attachments/assets/8b1747b0-5572-4bad-936b-fdc69a02ea09)
 
 
 

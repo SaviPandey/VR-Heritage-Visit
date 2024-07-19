@@ -1,0 +1,98 @@
+/* BlogCard.module.css */
+:root {
+    background-color: #eefde8;
+}
+
+.blog-card {
+    background: #fff;
+    border-radius: 6px;
+    
+}
+
+.blog-img {
+    border-radius: 6px;
+    object-fit: cover;
+    width: 100%;
+    transition: transform 0.3s cubic-bezier(0.2, 0.96, 0.34, 1), filter 0.3s ease-in-out; /* Add transition for smoother effect */
+}
+
+/* Add styles for the zoom effect and darkening on hover */
+.blog-img:hover {
+    transform: scale(1.0);
+    filter: brightness(60%); 
+    cursor: pointer;
+}
+
+
+.blog-card .temple-name {
+    color: grey;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.blog-card .card {
+    transition: none !important;
+    box-shadow: none !important;
+}
+.blog-card .card:hover{
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* Card.css */
+.read-more-link {
+    color: #788593;
+    font-size: 15px; /* Adjust font size as needed */
+    font-weight: 300px; /* Adjust font weight as needed */
+    text-align: left; /* Align center */
+    margin-left: 20px;
+    margin-top: 10px;
+    display: block; /* Ensure link takes full width */
+}
+.arrow-icon {
+    color: rgb(234, 146, 23) ;
+    transition: transform 0.3s ease-in-out;
+}
+
+.read-more-link:hover {
+    color: orange;
+    text-decoration: underline;
+    /* Add any additional styles for hover state here */
+}
+.read-more-link:hover .arrow-icon {
+    transform: translateX(5px); /* Adjust the amount of translation as needed */
+  }
+/********************** Date Box ***************************/
+  
+.orange-square {
+    position: absolute;
+    bottom: 160px;
+    left: 20px;
+    background-color: rgb(234, 146, 23) ;
+    width: 70px;
+    height: 90px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orange-square:hover {
+    background-color: #ca5b11; /* Dark orange color */
+}
+  
+.orange-square .text p{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    position: relative;
+    margin: 0%;
+}
+
+
+
+.blog-card h2 {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.blog-search h2 {
+    color:#70778b;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.blog-search .card{
+    background-color: white;
+    border-radius: 10px;
+    transition: none;
+    box-shadow: 0px 4px 18px 0px rgba(194, 200, 213, 0.3);
+    border: none
+}
+.blog-search .card:hover{
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.search-item{
+    justify-content: left;
+}
+
+.blogInput{
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align:start;
+
+    background-color: transparent;
+    border: 1px solid rgb(205, 204, 204); /* Add border styling */
+    border-radius: 5px;
+    height: 50px;
+    font-size: 15px;
+    outline: none; /* Remove default focus outline */
+}
+
+.sr-but-blog {
+    padding: 6px 14px;
+    background-color: rgb(142, 80, 4); /* Updated background color */
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0; /* Curved right corners for the search button */
+    cursor: pointer;
+    font-weight: bold;
+    height: 50px;
+    transition: background-color 0.7s, background-position 0.7s;
+    background-image: linear-gradient(to right, transparent 50%, rgb(234, 146, 23) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+  }
+  
+  .sr-but-blog:hover {
+    background-position: left bottom;
+    color: white;
+  }

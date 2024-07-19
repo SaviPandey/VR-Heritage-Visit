@@ -1,0 +1,13 @@
+.Map-location .Search-container .Search-location{
+    border: 1px solid white;
+    width: 65%;
+    float: left;
+}
+.Map-location .Search-container .Search-button{
+    width: 22%;
+    height: 50px;
+}
+
+.Map-location .Search-container{
+    width: 20%;
+}

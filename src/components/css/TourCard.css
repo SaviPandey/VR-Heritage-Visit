@@ -1,0 +1,55 @@
+/* Custom CSS for React Bootstrap grid example */
+
+/* Set a minimum height for the cards to ensure consistency */
+.card  {
+  height: 350px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Increase shadow intensity on hover */
+  transition: box-shadow 1s, transform 0.3s; /*Add transition for smooth animation */
+  margin: 20px 3% 20px 4%; /* Add space from top and bottom */
+}
+
+
+.card:hover {
+  box-shadow: 0 12px 20px #f2c094;
+  transform: translateY(-12px) scale(1.05); 
+}
+
+/* Center the card content vertically */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Style the card title */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Style the card text */
+.card-text {
+  font-size: 1rem;
+}
+/************************         ZOOM Images Styles        ********************************/
+/* TourCard.css */
+.zoom-card {
+  overflow: hidden;
+}
+
+.zoom-img {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 1.5s ease-in-out;
+  width: 100%;
+}
+
+.zoom-card:hover .zoom-img {
+  transform: scale(1.2);
+  filter: brightness(80%); 
+}
+
+
+

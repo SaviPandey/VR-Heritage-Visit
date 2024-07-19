@@ -1,0 +1,66 @@
+.reg-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ed1515;
+    background-image: url('https://cdn.pixabay.com/photo/2017/12/24/14/27/geometric-3037028_1280.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .reg-container {
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .reg-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .reg-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .reg-button {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reg-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .reg-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .reg-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .reg-link:hover {
+    text-decoration: underline;
+  }
+  

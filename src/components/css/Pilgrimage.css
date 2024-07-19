@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+    z-index: 1000; /* Ensure Navbar appears above other content */
+}
+.pilgrim-main {
+    display: flex; /* Use flexbox */
+    height: 100vh;
+    margin-top: 25px;
+    background: #fdf6f0;
+}
+
+.pilgrim-left {
+    width: 50%; /* Left container takes up 50% of the width */
+    overflow-y: scroll; /* Enable vertical scrolling if content exceeds container height */
+    overflow-x: hidden;
+}
+.pilgrim-search {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    margin-left: 35px;
+    /* align-items: center; */
+    /* background-color: rgb(236, 227, 221); */
+}
+
+.map-container {
+    width: 50%; /* Right container takes up 50% of the width */
+    position: relative;
+    overflow: hidden;
+}
+.map-container iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+.tour-cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+.card {
+    width: 33rem; 
+    margin-left: 3%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    /* margin-right: 2%;  */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    float: left;
+    flex-grow: 1; 
+    max-width: 100%; 
+}
+  
+.tour-card .card img {
+    width: 100%; 
+    height: 270px; 
+}
+  
+.card:nth-child(2n) {
+    margin-right: 0;
+}
+
+.pilgrim-main .pilgrim-left .pilgrim-search .card-css{
+    background-color: white;
+    border-radius: 10px;
+    transition: none;
+    box-shadow: 0px 4px 18px 0px rgba(194, 200, 213, 0.3);
+    border: none
+}
+.pilgrim-main .pilgrim-left .pilgrim-search .card-css:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+
+.pilgrim-main .pilgrim-left .pilgrim-search #searchInput{
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 50px;
+    text-align:start;
+
+    background-color: transparent;
+    border: 1px solid rgb(205, 204, 204); /* Add border styling */
+    border-radius: 5px;
+    height: 50px;
+    font-size: 15px;
+    outline: none; /* Remove default focus outline */
+}

@@ -1,0 +1,193 @@
+/* Position the Navbar at the top */
+.main {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+    z-index: 1000; /* Ensure Navbar appears above other content */
+}
+
+
+/* Home component styles */
+.home-container {
+    background-color: #fdf6f0; /* Set your desired background color */
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+    height: 575px;
+    z-index: 1;
+}
+  
+
+/* two div's side by side */
+.tag-line, .collage {
+    margin-top: 0px;
+    width: 50%; /* Set both divs to take up 50% of the container */
+    padding: 0px; /* Add padding as needed */
+    height: 100%;
+}
+
+.tag-line {
+    position: relative;
+    background-color: #fdf6f0;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  
+.tag-line h1 {
+    position: relative;
+    font-size: 5rem;
+    color: rgb(36, 36, 77);;
+    text-transform: uppercase;
+    text-align: center;
+    top: -180px;
+}
+
+.sphere-img {
+    position: absolute; /* Position the sphere image absolutely */
+    top: 0; 
+    left: 0; 
+    width: 15rem; 
+    height: 12rem; 
+}
+
+.curly-img {
+    position: absolute;
+    right: 0;
+    top: 10rem;
+    animation: moveUpDown 2s infinite alternate; 
+    width: 100px; 
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-40px); /* Adjust the distance you want the image to move */
+    }
+}
+
+.building-img {
+    position: absolute; /* Position the building image absolutely */
+    bottom: 0;
+    left: 0;
+    animation: moveLeftRight 5s infinite alternate;
+    width: 30rem;
+    height: 20rem;
+}
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(100%); /* Adjust the distance you want the image to move */
+    }
+}
+.collage {
+    position: relative;
+    background-color: #fdf6f0; /* Adjust as needed */
+    /* height: 100vh; */
+    width: 50%; 
+    z-index: 0;
+    pointer-events: none;
+}
+
+.collage-img {
+    padding-right: 20px;
+    position: relative;
+    width: 90%; /* Set the width of the image to 100% of its parent div */
+    height: 100%; /* Maintain the aspect ratio of the image */
+    transform: scale(1.2); /* Adjust the scale value as needed */
+    z-index: 1;
+    /* animation: rotateAnimation 10s linear infinite alternate; */
+    pointer-events: none;
+}
+
+@keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg); /* Start rotation from 0 degrees */
+    }
+    to {
+      transform: rotate(45deg); /* Rotate image fully in a clockwise direction */
+    }
+}
+
+.snake-img {
+    position: absolute; /* Position the snake image absolutely */
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 100%;
+    z-index: -1; 
+    animation: moveUpDown 2s infinite alternate; 
+}
+.snakeL-img {
+    position: absolute; /* Position the snake image absolutely */
+    top: 20px;
+    left: 80px;
+    width: 80%;
+    height: 100%;
+    z-index: -1; 
+}
+
+/**********************************************************/
+/* Image 360 css styles */
+.image-container {
+    height: 575px;
+    width: 100%;
+    background-color: white;
+} 
+/*********************************************************/
+/* Religious Place Css styles */
+.religious-places {
+    height: 775px;
+    width: 100%;
+    background-color: rgb(236, 227, 221);
+}
+
+
+
+/*********************************************************/
+/* Who are We => Mid-Section */
+.mid-container {
+    display: flex;
+    height: 675px;
+    width: 100%;
+    /* margin-bottom: 80px; */
+    background-color: #fdf6f0;
+}
+
+.mid-left, .mid-right {
+  width: 50%; /* Each container takes up 50% of the width */
+}
+.mid-left {
+    background-color: #fdf6f0;
+    align-items: center;
+}
+.collage2-img {
+    padding-left: 230px;
+    padding-top: 50px;
+    position: relative;
+    width: 90%; /* Set the width of the image to 100% of its parent div */
+    height: 90%; /* Maintain the aspect ratio of the image */
+    z-index: 1;
+    /* animation: rotateAnimation 10s linear infinite alternate; */
+    pointer-events: none;
+}
+.mid-right {
+    background-color: #e8b07f;
+}

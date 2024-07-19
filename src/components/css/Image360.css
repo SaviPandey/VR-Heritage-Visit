@@ -1,0 +1,66 @@
+html.a-fullscreen .a-canvas {
+    position:  relative !important;
+    overflow: auto !important;
+    width: 100% !important;
+    height: 575px !important;
+}
+/* Image 360 css styles */
+
+.image-container {
+    position: relative;
+    display:list-item;
+    height: 720px; /* Adjust the height as needed */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fad0d0;
+
+  }
+  
+  .image-container h3 {
+    letter-spacing: 5px;
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* Move the h1 back by half of its width and height */
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    line-height: 90px;
+    font-size: 40px; 
+    font-weight: 300; /* Make the font thinner */
+    text-shadow: 2px 16px 16px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    pointer-events: none;
+    user-select: none;
+}
+/* Arrow button styles */
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  background-color: #fff; /* Change the background color as needed */
+  border: none;
+  border-radius: 50%; /* Make the button circular */
+  cursor: pointer;
+  z-index: 100; /* Ensure the buttons appear above other elements */
+}
+
+.arrow-button:hover {
+  background-color: #ccc; /* Change the background color on hover */
+}
+
+.arrow-button-left {
+  left: 20px; /* Adjust the left position for the left button */
+}
+
+.arrow-button-right {
+  right: 20px; /* Adjust the right position for the right button */
+}
+
+
+
+

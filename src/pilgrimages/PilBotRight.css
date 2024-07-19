@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+}
+.right-bottom-div {
+    bottom: 0;
+    right: 0;
+    width: 26%; /* Adjust width as needed */
+    min-width: 200px; /* Adjust min-width as needed #f0f0f0 */
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+    margin-left: 2%;
+    height: 525px;
+    margin-top: 60px;
+    box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+ .img-form {
+  align-items: center;
+ } 
+
+.widget-subtitle {
+    margin-left: 10px;
+    color: #212121;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+  
+  
+.right-bottom-div h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+  
+  
+.right-bottom-div img {
+    margin-top: 0;
+    margin-bottom: -110px;
+    width: 120px;
+    height: auto;
+}
+  
+  
+  
+  .contact-info {
+    margin-bottom: 10px;
+    margin-left: 160px;
+    flex-grow: 1; /* Allow the contact info to take up remaining space */
+  }
+  
+  .item-title {
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #f58f3c;
+  }
+  .itm-phn {
+    margin-bottom: 10px;
+    color: #212121;
+    font-size: 16px;
+  }
+  .itm-email {
+    margin-bottom: 10px;
+    color: #212121;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .itm-rating ul li {
+    display: inline-block;
+    font-size: 13px;
+  }
+
+  .itm-rating ul .fa-star {
+    color: #f58f3c;
+  }
+  .rating-count {
+    color: blue;
+  }
+  .ratings {
+    margin-top: 10px;
+  }
+  
+  .ratings .star {
+    color: gold;
+    font-size: 25px;
+  }
+  
+  
+  .schedule-button {
+    margin-left: -160px;
+    margin-top: 20px;
+    width:200px;
+    font-size: 15px;
+    font-weight: 800;
+    height:auto;
+    padding: 8px;
+    background-color: #fdf6f0;
+    color: orange;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: box-shadow 0.3s; /* Add transition for smoother hover effect */
+  }
+  .schedule-button:hover {
+    box-shadow:  0 0 10px 0 blue;
+  }
+  
+  
+  .form-container {
+    margin-top: 10px;
+    margin-left: -160px;
+    
+  }
+  
+  .form-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  .form-container input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;  
+  }
+  
+  
+  .message-input {
+    width: 100%;
+    height: 80px; /* Adjust height as needed */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+.send-msg {
+    background-color: rgb(142, 80, 4);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 15px 30px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.7s, background-position 0.7s;
+    background-image: linear-gradient(to right, transparent 50%, rgb(234, 146, 23)  50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    text-transform: uppercase;
+}
+.send-msg:hover {
+    background-position: left bottom;
+    color: white;
+}
+.send-msg i {
+  margin-left: 5px;
+}

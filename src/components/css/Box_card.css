@@ -1,0 +1,113 @@
+body {
+    background-color: white;
+}
+
+b {
+    margin: 18px;
+    font-size: 20px;
+}
+
+p {
+    margin: 18px;
+    font-size: 15px;
+    color: #70778b;
+    font-weight: bold;
+    /* margin-bottom: 50px; */
+}
+.data {
+    width: 28%;
+    float: left;
+    margin: 15px 10px 10px 10px;
+    padding: 20px;
+    height: 275px;
+    transition:  transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.data:hover {
+    transform: translateY(-15px); /* Elevate the card slightly on hover */
+}
+
+.data-details {
+    width: 100%;
+    height: 275px;
+    float: left;
+}
+
+.data-details .data-details-left {
+    width: 100%;
+    height: 275px;
+    background: #fff;
+    border-radius: 15px;
+    margin: 10px auto;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(24, 22, 22, 0.5);
+    float: left;
+    margin-left: 60px;
+}
+
+.data-details .data-details-left .img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+
+.data-details .data-details-left .img img {
+    width: 100%;
+    height: 200px;
+}
+
+.data-details .data-details-left .img .zoom-img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.data-details .data-details-left .img:hover .zoom-img {
+    transform: scale(1.2);
+}
+
+.data-details .data-details-left #amount {
+    position: absolute;
+    top: 120px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.data-details .data-details-left #amount span {
+    font-weight: normal;
+    color: darkgrey;
+    font-size: 18px;
+}
+
+.data-details .data-details-left #img-but {
+    color: orange;
+    position: absolute;
+    width: 100px;
+    top: 182.8px;
+    left: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+#img-but {
+    height: 20px;
+    font-size: 16px;
+    font-weight: 100px;
+}
+
+.data-details .data-details-left #top-but {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: white;
+    background-color: orange;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+.data-details .data-details-left #top-but:hover {
+    background-color: blue;
+}

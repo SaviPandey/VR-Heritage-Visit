@@ -1,0 +1,140 @@
+/* About Page CSS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* Main container */
+body {
+    font-family: "Ubuntu", sans-serif; /* Apply font-family to the entire page */
+    font-style: normal;
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+    z-index: 1000; /* Ensure Navbar appears above other content */
+}
+.about-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 25px;
+    background-color: #fdf6f0;
+}
+  
+/* Left side containing the image */
+.about-left {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+  
+/******************************* Image styling ********************************/
+.ram-img {
+    width: 80%; /* Adjust the width as needed */
+    height: auto;
+    border: 2px solid #333; /* Add border */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+  
+/* Hover effect */
+.ram-img:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8); /* Increase shadow intensity on hover */
+}
+/*********************************************************************************/
+  
+/**************************** Right side containing the text **********************************/
+.about-right {
+    flex: 1;
+    padding: 0 20px;
+}
+  
+/* Upper section of the right side */
+.right-upper {
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px;
+}
+  
+.right-upper h1 {
+    font-size: 24px;
+    margin-bottom: 35px; /* Adjust margin to move the h1 element towards the top */
+    color: orange; /* Set the color to orange */
+}
+  
+  
+.right-upper h3 {
+    font-size: 30px; 
+    font-weight: bold; 
+    color: black; 
+    margin-bottom: 30px;
+}
+  
+.right-upper p {
+    font-size: 20px;
+    color: #70778b;
+    margin-bottom: 15px;
+}
+/************************************************8/
+  
+/* Bottom section of the right side */
+.right-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+  
+/****************************** Left bottom section ***********************/
+  .bottm-left,
+  .bottom-right {
+    flex: 1;
+    text-align: left;
+    padding: 0 10px; /* Add padding for spacing */
+}
+  
+  /* Image 1 */
+.img1 {
+    max-width: 80%; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%; /* Make the border circular */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add shadow to the circular border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  /* Image 2 */
+  .img2 {
+    max-width: 80%; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  /* Hover effect */
+  .img1:hover,
+  .img2:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+    box-shadow: 0px 0px 20px orange; /* Change shadow color to orange on hover */
+  }
+  
+  
+  /* Bottom section text */
+  .bottm-left h3,
+  .bottom-right h3 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .bottm-left p,
+  .bottom-right p {
+    font-size: 20px;
+    color: #70778b;
+  }
+  
